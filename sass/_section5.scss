@@ -1,0 +1,98 @@
+.section5{
+    margin-bottom: 50px;
+    &-head{
+        margin-left: 44px;
+        margin-bottom: 80px;
+        font-size: 70px;
+    }
+    &-box1{
+        margin-left: 44px;
+        &-img{
+            
+        }
+    }
+    &-box2{
+        &-img{
+            margin-left: -20px;
+        }
+    }
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:1200px){
+    .section5{
+        &-head{
+            margin-left: 44px;
+            margin-bottom: 80px;
+            font-size: 70px;
+        }
+        &-box1{
+            margin-left: 44px;
+            &-img{
+                width: 93%;
+            }
+        }
+        &-box2{
+            &-img{
+                width: 93%;
+            }
+        }
+    }
+    @media (max-width:992px){
+        .section5{
+            &-head{
+                margin-left: 44px;
+                margin-bottom: 80px;
+                font-size: 70px;
+            }
+            &-box1{
+                margin-left: 44px;
+                &-img{
+                    width: 93%;
+                }
+            }
+            &-box2{
+                margin-top: 20px;
+                &-img{
+                    margin-left: 44px;
+                    width: 88%;
+
+                }
+            }
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+        }
+        @media (max-width:768px){
+            .section5{
+                &-head{
+                    margin-left: 44px;
+                    margin-bottom: 80px;
+                    font-size: 70px;
+                }
+                &-box1{
+                    margin-left: 44px;
+                    &-img{
+                        width: 93%;
+                    }
+                }
+                &-box2{
+                    margin-top: 20px;
+                    &-img{
+                        margin-left: 44px;
+                        width: 88%;
+    
+                    }
+                }
+            }
+            .box{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+}

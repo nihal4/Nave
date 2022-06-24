@@ -1,0 +1,90 @@
+.section3{
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    &-box1{
+        &-img{
+            height: 80vh;
+            margin-left: -10px;
+        }
+        
+    }
+    &-box2{
+        margin-left: 80px;
+        &-head{
+            font-size: 50px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        &-p{
+            width: 80%;
+            font-weight: 600;
+            margin-bottom:50px;
+        }
+        &-btn{
+            &:link,
+            &:visited{
+                text-transform: uppercase;
+                color: #121212;
+                font-weight: 600;
+                text-decoration: none;
+                background-color: #fcaf3b;
+                font-size: 13px;
+                padding: 17px 35px;
+            }
+        }
+    }
+}
+@media (max-width:1400px){
+
+    @media (max-width:1200px){
+        .section3{
+            &-box1{
+                &-img{
+                    margin-left: 100px;
+                }
+            }
+        }
+        @media (max-width:992px){
+            .section3{
+                &-box1{
+                    &-img{
+                        margin-left: 0px;
+                    }
+                }
+            }
+            @media(max-width:768px){
+                .section3{
+                    height: 170vh;
+                    &-box1{
+                        &-img{
+                            height: 70vh;
+                        }
+                    }
+                }
+                @media (max-width:576px){
+                    .section3{
+                        height: 170vh;
+                        display: flex;
+                        flex-direction: column;
+                        &-box1{
+                            &-img{
+
+                            }
+                        }
+                        &-box2{
+                            &-p{
+                                width: 100%;
+                                font-weight: 600;
+                                margin-bottom:50px;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
